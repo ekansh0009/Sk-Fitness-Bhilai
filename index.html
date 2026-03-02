@@ -435,7 +435,7 @@ footer{background:#080808;border-top:1px solid var(--glass-border);padding:4rem 
   </div>
 </div>
 
-<!-- EXIT INTENT POPUP -->
+<!-- EXIT INTENT POPUP 
 <div class="popup-overlay" id="exitPopup">
   <div class="popup-box">
     <button class="popup-close" onclick="document.getElementById('exitPopup').classList.remove('open')">✕</button>
@@ -448,7 +448,7 @@ footer{background:#080808;border-top:1px solid var(--glass-border);padding:4rem 
       <button onclick="document.getElementById('exitPopup').classList.remove('open')" style="background:none;border:1px solid rgba(255,255,255,.2);color:var(--muted);padding:.9rem 2rem;border-radius:4px;cursor:pointer;font-family:'Barlow',sans-serif">No Thanks</button>
     </div>
   </div>
-</div>
+</div>-->
 
 <!-- HERO -->
 <section id="hero">
@@ -495,7 +495,7 @@ footer{background:#080808;border-top:1px solid var(--glass-border);padding:4rem 
           <div style="color:var(--muted);font-size:.85rem;margin-top:.5rem">Bhilai's Premium Gym</div>
         </div>
         <div class="about-badge-float">
-          <span class="num">5+</span>
+          <span class="num">4+</span>
           <span class="lbl">Years of Excellence</span>
         </div>
       </div>
@@ -508,13 +508,13 @@ footer{background:#080808;border-top:1px solid var(--glass-border);padding:4rem 
       <p>Whether you're a beginner or seasoned athlete, we craft personalized programs that match your goals — from fat loss and muscle building to body transformation and athletic performance.</p>
       <div class="counters">
         <div class="counter-box">
-          <div class="num" data-target="500">0</div>
+          <div class="num" data-target="1500">0</div>
           <div class="lbl">Active Members</div>
         </div>
-        <div class="counter-box">
+       <!-- <div class="counter-box">
           <div class="num" data-target="5">0</div>
           <div class="lbl">Certified Trainers</div>
-        </div>
+        </div>-->
         <div class="counter-box">
           <div class="num" data-target="4.9" data-decimal="true">0</div>
           <div class="lbl">Star Rating ⭐</div>
@@ -592,7 +592,6 @@ footer{background:#080808;border-top:1px solid var(--glass-border);padding:4rem 
       <div class="plan-price"><sup>₹</sup>999<sub>/mo</sub></div>
       <ul class="plan-features">
         <li>Full Gym Access</li>
-        <li>Locker Room</li>
         <li>Free Water Station</li>
         <li>Basic Diet Tips</li>
         <li>Group Classes</li>
@@ -602,35 +601,41 @@ footer{background:#080808;border-top:1px solid var(--glass-border);padding:4rem 
     <div class="plan-card popular reveal">
       <div class="popular-badge">Most Popular</div>
       <div class="plan-name">Quarterly</div>
-      <div class="plan-price"><sup>₹</sup>2,499<sub>/3mo</sub></div>
+      <div class="plan-price"><sup>₹</sup>2,399<sub>/3mo</sub></div>
       <ul class="plan-features">
         <li>Full Gym Access</li>
-        <li>Locker Room</li>
         <li>Free Water Station</li>
         <li>Diet Consultation</li>
         <li>Group Classes</li>
         <li>Body Analysis</li>
-        <li>10% Supplement Discount</li>
+      </ul>
+      <a href="#contact" class="btn-primary">Get Started</a>
+    </div>
+    <div class="plan-card reveal">
+      <div class="plan-name">Half Yearly</div>
+      <div class="plan-price"><sup>₹</sup>3,499<sub>/yr</sub></div>
+      <ul class="plan-features">
+        <li>Full Gym Access</li>
+        <li>Free Water Station</li>
+        <li>Monthly Diet Plans</li>
+        <li>All Group Classes</li>
+        <li>Monthly Body Analysis</li>
       </ul>
       <a href="#contact" class="btn-primary">Get Started</a>
     </div>
     <div class="plan-card reveal">
       <div class="plan-name">Yearly</div>
-      <div class="plan-price"><sup>₹</sup>7,999<sub>/yr</sub></div>
+      <div class="plan-price"><sup>₹</sup>5,499<sub>/yr</sub></div>
       <ul class="plan-features">
         <li>Full Gym Access</li>
-        <li>Locker Room</li>
         <li>Free Water Station</li>
         <li>Monthly Diet Plans</li>
         <li>All Group Classes</li>
         <li>Monthly Body Analysis</li>
-        <li>15% Supplement Discount</li>
-        <li>Priority Trainer Access</li>
-        <li>1 Free Guest Pass/Month</li>
       </ul>
       <a href="#contact" class="btn-primary">Get Started</a>
     </div>
-    <div class="plan-card reveal">
+   <!-- <div class="plan-card reveal">
       <div class="plan-name">Personal Training</div>
       <div class="plan-price"><sup>₹</sup>3,999<sub>/mo</sub></div>
       <ul class="plan-features">
@@ -643,12 +648,12 @@ footer{background:#080808;border-top:1px solid var(--glass-border);padding:4rem 
         <li>Full Gym Access</li>
       </ul>
       <a href="#contact" class="btn-primary">Get Started</a>
-    </div>
+    </div>-->
   </div>
   <p style="text-align:center;color:var(--muted);margin-top:2rem;font-size:.85rem">* Prices subject to change. Contact us for corporate/student discounts. GST applicable.</p>
 </section>
 
-<!-- TRAINERS -->
+<!-- TRAINERS --
 <section id="trainers">
   <div class="reveal" style="text-align:center">
     <div class="section-badge">Expert Team</div>
@@ -718,7 +723,7 @@ footer{background:#080808;border-top:1px solid var(--glass-border);padding:4rem 
       </div>
     </div>
   </div>
-</section>
+</section>->>
 
 <!-- GALLERY -->
 <section id="gallery">
@@ -871,9 +876,8 @@ footer{background:#080808;border-top:1px solid var(--glass-border);padding:4rem 
       <div class="form-group">
         <label>Preferred Time</label>
         <select id="trialTime">
-          <option>Morning (6am – 9am)</option>
-          <option>Afternoon (11am – 2pm)</option>
-          <option>Evening (5pm – 9pm)</option>
+          <option>Morning (6am – 10am)</option>
+          <option>Evening (5pm – 10pm)</option>
         </select>
       </div>
       <div class="form-group">
@@ -1097,6 +1101,11 @@ footer{background:#080808;border-top:1px solid var(--glass-border);padding:4rem 
   <div class="footer-bottom">
     <p>© 2025 SK Fitness, Bhilai. All rights reserved. | Designed with ❤️ for Bhilai's fitness community</p>
     <a href="https://www.instagram.com/sk_fitness_01_2023?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="footer-ig-btn">📸 @skfitness</a>
+     </a>
+   <a href="ekansh0009.github.io/Portfolio" target="_blank" class="fab wa" title="Contact Developer">
+    <span class="fab-label">Contact Developer</span>
+    💬
+  </a>
   </div>
 </footer>
 
